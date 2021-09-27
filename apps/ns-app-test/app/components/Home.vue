@@ -49,4 +49,7 @@ export default Vue.extend({
   horizontal-align: center;
   vertical-align: center;
 }
+label{
+  font-size: 18;
+}
 </style>
