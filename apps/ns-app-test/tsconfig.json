@@ -11,7 +11,10 @@
     "baseUrl": ".",
     "paths": {
       "~/*": ["app/*"],
-      "@/*": ["app/*"]
+      "@/*": ["app/*"],
+      "@native/*": [
+        "../../packages/native-components/src/*"
+      ],
     },
     "typeRoots": ["types"],
     "types": ["node"],
