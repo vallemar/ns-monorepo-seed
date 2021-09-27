@@ -1,21 +1,36 @@
 <template>
   <Page>
-    <GridLayout>
-      <TestComponentImport></TestComponentImport>
-    </GridLayout>
+    <StackLayout style="padding: 15px">
+      <Btn @tap="callCommonCode()"></Btn>
+      <label :text="exampleCommon" />
+      <label :text="exampleCommonByPlatform" />
+      <label :text="exampleCommonByPlatformWithCommon" />
+    </StackLayout>
   </Page>
 </template>
 
 <script lang="ts">
 import Vue from "nativescript-vue";
-import TestComponentImport from "@native/components/TestComponentImport.vue";
-import { exportFunctionImportWork } from "@native/code/TestTsFileImport";
-console.log(exportFunctionImportWork());
+import Btn from "@native/components/Btn.vue";
+import { exampleCommonCode } from "@core-common/example-common-code/example-common-code";
+import { authenticate } from "@core-common/example-code-by-platform/authentication";
+import { commonCodeAndByPlatform } from "@core-common/example-code-by-platform-with-common/example-common";
 export default Vue.extend({
-  components: { TestComponentImport },
-  computed: {
-    message() {
-      return "Blank {N}-Vue app";
+  components: { Btn },
+  data() {
+    return {
+      exampleCommon: "",
+      exampleCommonByPlatform: "",
+      exampleCommonByPlatformWithCommon: "",
+    };
+  },
+  methods: {
+    callCommonCode() {
+      console.log("CALL");
+      console.log(exampleCommonCode());
+      this.exampleCommon = exampleCommonCode();
+      this.exampleCommonByPlatform = authenticate("xxx@xxx.com", "123456");
+      this.exampleCommonByPlatformWithCommon = commonCodeAndByPlatform();
     },
   },
 });

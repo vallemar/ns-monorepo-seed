@@ -4,26 +4,46 @@
     "target": "es2017",
     "module": "esnext",
     "moduleResolution": "node",
-    "lib": ["dom", "es2017"],
+    "lib": [
+      "dom",
+      "es2017"
+    ],
     "sourceMap": true,
     "noEmitHelpers": true,
     "importHelpers": true,
     "baseUrl": ".",
     "paths": {
-      "~/*": ["app/*"],
-      "@/*": ["app/*"],
+      "~/*": [
+        "app/*"
+      ],
+      "@/*": [
+        "app/*"
+      ],
       "@native/*": [
         "../../packages/native-components/src/*"
       ],
+      "@core-common/*": [
+        "../../packages/core-common/src/*"
+      ],
     },
-    "typeRoots": ["types"],
-    "types": ["node"],
+    "typeRoots": [
+      "types"
+    ],
+    "types": [
+      "node"
+    ],
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "skipLibCheck": true
   },
-  "include": ["app", "types"],
-  "exclude": ["node_modules", "platforms"]
+  "include": [
+    "app",
+    "types"
+  ],
+  "exclude": [
+    "node_modules",
+    "platforms"
+  ]
 }

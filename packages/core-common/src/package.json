@@ -1,0 +1,7 @@
+{
+    "name": "core-common",
+    "version": "1.0.0",
+    "dependencies": {
+        "nativescript-vue": "^2.9.0"
+    }
+}

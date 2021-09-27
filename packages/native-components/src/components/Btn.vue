@@ -1,7 +1,5 @@
 <template>
-  <StackLayout>
-    <label text="btn"></label>
-  </StackLayout>
+  <button @tap="$emit('tap')" text="BTN COMPONENT SHARED" />
 </template>
 
 <script>
