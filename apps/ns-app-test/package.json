@@ -7,7 +7,7 @@
     "@nativescript/core": "~8.1.1",
     "@nativescript/theme": "~3.0.1",
     "nativescript-vue": "~2.9.0",
-    "native-components": "file:../../packages/components/native"
+    "@native/components": "file:../../packages/components/native"
   },
   "devDependencies": {
     "@nativescript/android": "8.1.1",
