@@ -19,7 +19,7 @@ This project is a setup to start with any monorepo between NS applications, vue 
 [package.json](https://github.com/vallemar/ns-monorepo-example/blob/master/apps/vue-cli-app/package.json#L11)
 
 
-## Usage
+## Native Code NS or Web
 To differentiate between web and native code, the files `*.native.ts` have been established and for the web they are `*.web.ts`. These can be found in NS webpack, vite.config.ts and vue.config.ts
 
 
