@@ -1,7 +1,7 @@
 <template>
   <Page>
     <StackLayout style="padding: 15px">
-      <Btn @tap="callCommonCode()"></Btn>
+      <Btn text="BTN RUN SHARED CODE" @tap="callCommonCode()"></Btn>
       <label :text="exampleCommon" />
       <label :text="exampleCommonByPlatform" />
       <label :text="exampleCommonByPlatformWithCommon" />
