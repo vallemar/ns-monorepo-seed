@@ -1,0 +1,21 @@
+{
+  "name": "ns-app-test",
+  "main": "app/app.ts",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@nativescript/core": "~8.1.1",
+    "@nativescript/theme": "~3.0.1",
+    "nativescript-vue": "~2.9.0",
+    "native-components": "file:../../packages/components/native"
+  },
+  "devDependencies": {
+    "@nativescript/android": "8.1.1",
+    "@nativescript/types": "~8.1.1",
+    "@nativescript/webpack": "~5.0.0",
+    "@types/node": "~14.6.2",
+    "nativescript-vue-template-compiler": "~2.9.0",
+    "typescript": "~4.3.5",
+    "vue": "~2.6.12"
+  }
+}
