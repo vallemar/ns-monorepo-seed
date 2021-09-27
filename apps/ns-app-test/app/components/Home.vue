@@ -8,8 +8,8 @@
 
 <script lang="ts">
 import Vue from "nativescript-vue";
-import TestComponentImport from "@native/components/src/components/TestComponentImport.vue";
-import { exportFunctionImportWork } from "@native/components/src/code/TestTsFileImport";
+import TestComponentImport from "@native/components/TestComponentImport.vue";
+import { exportFunctionImportWork } from "@native/code/TestTsFileImport";
 console.log(exportFunctionImportWork());
 export default Vue.extend({
   components: { TestComponentImport },
