@@ -1,22 +1,19 @@
 # Monorepo Shared Code between NativeScript + Vue Vite + Vue CLI
 
-This project is a setup to start with any monorepo between NS applications, vue vite (web) and vue CLI (web).
+This project is a setup to start with any monorepo between NS applications, vue vite (web).
 
 ## Importants file of project
+
+#### Common tsconfig
+[tsconfig.ts](https://github.com/vallemar/ns-monorepo-seed/blob/master/tsconfig.json#L18)
+
 #### NativeScript APPs
-[webpack.config.js](https://github.com/vallemar/ns-monorepo-example/blob/master/apps/ns-app-test/webpack.config.js#L6)\
-[tsconfig.ts](https://github.com/vallemar/ns-monorepo-example/blob/master/apps/ns-app-test/tsconfig.json#L22)\
-[package.json](https://github.com/vallemar/ns-monorepo-example/blob/master/apps/ns-app-test/package.json#L9)
+[webpack.config.js](https://github.com/vallemar/ns-monorepo-seed/blob/master/apps/ns-vue/webpack.config.js)\
+[tsconfig.ts](https://github.com/vallemar/ns-monorepo-seed/blob/master/apps/ns-vue/tsconfig.json#L15-L16)
 
 #### Vue Vite APPs
-[vite.config.ts](https://github.com/vallemar/ns-monorepo-example/blob/master/apps/vue-vite-app/vite.config.ts)\
-[tsconfig.ts](https://github.com/vallemar/ns-monorepo-example/blob/master/apps/vue-vite-app/tsconfig.json#L18)\
-[package.json](https://github.com/vallemar/ns-monorepo-example/blob/master/apps/vue-vite-app/package.json#L11)
-
-#### Vue CLI APPs
-[vue.config.js](https://github.com/vallemar/ns-monorepo-example/blob/master/apps/vue-cli-app/vue.config.js)\
-[tsconfig.ts](https://github.com/vallemar/ns-monorepo-example/blob/master/apps/vue-cli-app/tsconfig.json#L21)\
-[package.json](https://github.com/vallemar/ns-monorepo-example/blob/master/apps/vue-cli-app/package.json#L11)
+[vite.config.ts](https://github.com/vallemar/ns-monorepo-seed/blob/master/apps/vite-vue-ts/vite.config.ts#L8-L13)\
+[tsconfig.ts](https://github.com/vallemar/ns-monorepo-seed/blob/master/apps/vite-vue-ts/tsconfig.json#L22-L27)
 
 
 ## Native Code NS or Web
