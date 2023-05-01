@@ -1,4 +1,4 @@
-# Monorepo Shared Code between NativeScript + Vue Vite + Vue CLI
+# Monorepo Shared Code between NativeScript + Vue Vite
 
 This project is a setup to start with any monorepo between NS applications, vue vite (web).
 
