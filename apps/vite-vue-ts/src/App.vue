@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {exampleCommonCode, commonCodeAndByPlatform, authenticate} from "@core-common/"
+import {exampleCommonCode, commonCodeAndByPlatform, authenticate} from "@core-common"
 
 </script>
 

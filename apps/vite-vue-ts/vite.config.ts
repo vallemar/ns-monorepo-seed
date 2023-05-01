@@ -8,7 +8,7 @@ export default defineConfig({
   resolve: {
     alias: {
       "@/": "/src/",
-      "@core-common": resolve(__dirname,"../../libs/core-common/src/")
+      "@core-common": resolve(__dirname,"../../libs/core-common/src")
     },
     extensions: ['.mjs', '.js', '.ts', '.json', '.vue', ".web.ts"]
   }
