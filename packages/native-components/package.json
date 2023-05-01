@@ -1,7 +1,0 @@
-{
-    "name": "native-components",
-    "version": "1.0.0",
-    "dependencies": {
-        "nativescript-vue": "^2.9.0"
-    }
-}

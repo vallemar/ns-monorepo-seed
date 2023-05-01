@@ -1,0 +1,23 @@
+{
+    "name": "core-common",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@nativescript/firebase-core": "^3.1.0",
+      "@nativescript/firebase-database": "^3.1.0",
+      "@nativescript/firebase-firestore": "^3.1.0",
+      "firebase": "^9.21.0",
+      "pinia": "^2.0.35",
+      "vue": "^3.2.47"
+    },
+    "dependencies": {
+      "@nativescript/core": "^8.5.2",
+      "nativescript-vue": "^2.9.3"
+    }
+  }
